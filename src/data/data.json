@@ -1,0 +1,39 @@
+{
+    "swiper": [{
+            "img": "imgs/bg1.png"
+        },
+        {
+            "img": "imgs/bg2.png"
+        }
+    ],
+    "Piclist": [{
+        "img": "imgs/list1.png",
+        "title": "活动频道"
+    }, {
+        "img": "imgs/list2.png",
+        "title": "小米闪购"
+    }, {
+        "img": "imgs/list3.png",
+        "title": "好友拼团"
+    }, {
+        "img": "imgs/list4.png",
+        "title": "小米分期"
+    }],
+    "shopping": {
+        "tit": "商城早报",
+        "lists": [{
+            "img": "imgs/pic1.png",
+            "title": "新品曝光"
+        }, {
+            "img": "imgs/pic2.png",
+            "title": "特惠攻略"
+        }, {
+            "img": "imgs/pic3.png",
+            "title": "开箱图赏"
+        }, {
+            "img": "imgs/pic4.png",
+            "title": "评测解析"
+        }]
+    }
+
+}

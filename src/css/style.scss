@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,
+body,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    font-size: .32rem;
+}
+
+header {
+    width: 100%;
+    height: .8rem;
+    background: #fff;
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding: .2rem;
+    align-items: center;
+    i.icon {
+        color: #b4b4b4;
+    }
+    .input {
+        flex: 1;
+        margin-right: .2rem;
+        background: #f9f9f9;
+        position: relative;
+        input {
+            height: .6rem;
+            width: 100%;
+            border: 0;
+            border-radius: .12rem;
+            border: 1px solid #eee;
+            outline: none;
+            padding-left: .5rem;
+        }
+        i.icon {
+            position: absolute;
+            left: .1rem;
+            top: .08rem;
+        }
+    }
+}
+
+section {
+    flex: 1;
+    overflow-y: auto;
+    .banner {
+        width: 100%;
+        height: auto;
+        img {
+            width: 100%;
+            height: 2rem;
+            display: block;
+        }
+    }
+    .Piclist {
+        width: 100%;
+        height: 1.6rem;
+        display: flex;
+        border-bottom: 1px solid #eee;
+        a {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: .6rem;
+                height: .6rem;
+            }
+            span {
+                color: #333;
+                font-size: .28rem;
+                line-height: 1.5;
+            }
+        }
+    }
+    .tub {
+        width: 100%;
+        height: 1.74rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .2rem;
+        border-bottom: 10px solid #fafafa;
+        dl {
+            display: flex;
+            dt {
+                width: 1.44rem;
+                height: .92rem;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            dd {
+                margin-top: .12rem;
+                margin-left: .12rem;
+                p.title {
+                    color: #333;
+                }
+                p.cmt {
+                    color: #666;
+                    font-size: .28rem;
+                    line-height: 1.5;
+                }
+            }
+        }
+        p {
+            span {
+                color: #666;
+                font-size: .28rem;
+            }
+            i.icon {
+                vertical-align: middle;
+            }
+        }
+    }
+    .pic {
+        width: 100%;
+        height: 2rem;
+        background: url('../imgs/bg2.png');
+        background-size: cover;
+    }
+    .shopping {
+        h1 {
+            color: #333;
+            height: .78rem;
+            line-height: .78rem;
+            padding-left: .2rem;
+            font-size: .34rem;
+        }
+        .lists {
+            display: flex;
+            background: #f6f6f6;
+            overflow: hidden;
+            dl {
+                width: 30%;
+                margin: .08rem;
+                flex-shrink: 0;
+                &:nth-of-type(1) {
+                    background: #E8F3F8;
+                }
+                &:nth-of-type(2) {
+                    background: #FFF9EA;
+                }
+                &:nth-of-type(3) {
+                    background: #F9FAFE;
+                }
+                &:nth-of-type(4) {
+                    background: #FBF2EE;
+                }
+                dd {
+                    font-size: .3rem;
+                    color: #646D70;
+                }
+                dt {
+                    width: 1.94rem;
+                    height: 2.13rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: .8rem;
+    display: flex;
+    border: 1px solid #eee;
+    a {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        span {
+            color: #333;
+            font-size: .26rem;
+        }
+        i.icon {
+            color: #666;
+        }
+    }
+}
